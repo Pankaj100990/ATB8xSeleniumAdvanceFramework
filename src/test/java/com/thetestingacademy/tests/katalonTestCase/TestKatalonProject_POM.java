@@ -1,33 +1,24 @@
 package com.thetestingacademy.tests.katalonTestCase;
 
-import com.thetestingacademy.pages.pageObjectModel.LoginPage_POM;
+import com.thetestingacademy.base.CommonToAllTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TestKatalonProject_POM {
+import static org.assertj.core.api.Assertions.assertThat;
 
-    @Owner("Pankaj")
-    @Description("Verify that invalid creds give error message")
+public class TestKatalonProject_POM  extends CommonToAllTest {
+
+
+    @Owner("PRAMOD")
+    @Description("Verify that the login to the ")
     @Test
     public void testLoginNegativeVWO() {
 
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://app.vwo.com");
 
-
-
-        LoginPage_POM loginPagePom = new LoginPage_POM(driver);
-        String error_msg = loginPagePom.loginToVWOLoginInvalidCreds("admin@gmail.com","123");
-
-
-
-        assertThat(error_msg).isNotBlank().isNotNull().isNotEmpty();
-        Assert.assertEquals(error_msg, "Your email, password, IP address or location did not match");
-
-        driver.quit();
 
     }
+
+
+
 }

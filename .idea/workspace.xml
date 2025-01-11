@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941191a8-e989-4daf-a123-3ca7ba539d2f" name="Changes" comment="New">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/UtilsExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/katalonTestCase/TestKatalonProject_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/orangehr/DashBoardPage_POM_OHR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/orangehr/LoginPage_POM_OHR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/OrangeHR/TestOrangeHR_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-orangeHR.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sampleTestCase/TestSelenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/TestSelenium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sampleTestCase/TestSelenium2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/vwo/DashboardPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/vwo/LoginPage_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/katalonTestCase/TestKatalonProject_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/katalonTestCase/TestKatalonProject_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,29 +28,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pankaj100990"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pankaj100990&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pankaj100990/ATB8xSeleniumAdvanceFramework.git",
-    "accountId": "b8fa8352-5a60-4ed2-8eb1-d4c8437d3783"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pankaj100990/ATB8xSeleniumAdvanceFramework.git&quot;,
+    &quot;accountId&quot;: &quot;b8fa8352-5a60-4ed2-8eb1-d4c8437d3783&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2rKroaNgDZ0VnJTkjkZQ0zbEoJ2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,12 +63,39 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin.xml.executor": "Run",
     "TestNG.TestSelenium.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pankaj.gokhale\IdeaProjects\ATB8xSeleniumAdvanceFramework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml">
+    <configuration name="C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-orangeHR.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-vwologin.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSelenium" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xSeleniumAdvanceFramework" />
       <extension name="coverage">
@@ -90,6 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml" />
+        <item itemvalue="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin.xml" />
         <item itemvalue="TestNG.TestSelenium" />
       </list>
     </recent_temporary>
@@ -111,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736319969923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New">
+      <option name="closed" value="true" />
+      <created>1736324550517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324550517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
