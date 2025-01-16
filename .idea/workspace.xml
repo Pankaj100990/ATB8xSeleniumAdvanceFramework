@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941191a8-e989-4daf-a123-3ca7ba539d2f" name="Changes" comment="New">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/orangehr/DashBoardPage_POM_OHR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/orangehr/LoginPage_POM_OHR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/OrangeHR/TestOrangeHR_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-orangeHR.xml" afterDir="false" />
+    <list default="true" id="941191a8-e989-4daf-a123-3ca7ba539d2f" name="Changes" comment="New Web t">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/pageFactory_TestCase/TestVWOLogin_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-vwologin-retry.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/vwo/DashboardPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/vwo/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertiesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/katalonTestCase/TestKatalonProject_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/katalonTestCase/TestKatalonProject_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/UtilsExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/UtilsExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/pageObjectModel_TestCase/TestVWOLogin_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-vwologin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-vwologin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,8 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml.executor": "Run",
+    "TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin-retry.xml.executor": "Run",
     "TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin.xml.executor": "Run",
     "TestNG.TestSelenium.executor": "Run",
     "git-widget-placeholder": "master",
@@ -74,11 +76,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pankaj.gokhale\IdeaProjects\ATB8xSeleniumAdvanceFramework" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pankaj.gokhale\IdeaProjects\ATB8xSeleniumAdvanceFramework\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin-retry.xml">
     <configuration name="C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xSeleniumAdvanceFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-orangeHR.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin-retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-vwologin-retry.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -115,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin-retry.xml" />
         <item itemvalue="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-orangeHR.xml" />
         <item itemvalue="TestNG.C:/Users/pankaj.gokhale/IdeaProjects/ATB8xSeleniumAdvanceFramework/testng-vwologin.xml" />
         <item itemvalue="TestNG.TestSelenium" />
@@ -146,11 +162,40 @@
       <option name="project" value="LOCAL" />
       <updated>1736324550517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New Web">
+      <option name="closed" value="true" />
+      <created>1736615816774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736615816774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Web t">
+      <option name="closed" value="true" />
+      <created>1736615955991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736615955991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="New Web" />
+    <MESSAGE value="New Web t" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Web t" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
