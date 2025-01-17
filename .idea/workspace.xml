@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="941191a8-e989-4daf-a123-3ca7ba539d2f" name="Changes" comment="New Web t">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryAnalyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/pageFactory_TestCase/TestVWOLogin_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-vwologin-retry.xml" afterDir="false" />
+    <list default="true" id="941191a8-e989-4daf-a123-3ca7ba539d2f" name="Changes" comment="Log4j">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManagerSelenoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManagerTL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/UtilsExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/UtilsExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/listeners/RetryListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwoLogin/pageObjectModel_TestCase/TestVWOLogin_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-vwologin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-vwologin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736615955991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Log4j">
+      <option name="closed" value="true" />
+      <created>1737040572713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737040572713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
     <MESSAGE value="New Web" />
     <MESSAGE value="New Web t" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Web t" />
+    <MESSAGE value="Log4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log4j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
